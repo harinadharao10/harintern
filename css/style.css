@@ -1,0 +1,25 @@
+body{
+    background:cornflowerblue;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    background:coral;
+    color: slateblue;
+}
+form{
+font-family:'Times New Roman', Times, serif;
+width: 100%;
+color: rgb(1, 1, 2);
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+

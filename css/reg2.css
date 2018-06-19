@@ -1,0 +1,30 @@
+h3{
+    font-family:'Times New Roman', Times, serif;         
+    font-style: normal; 
+    font-weight: bold; 
+    color:SlateBlue;
+    text-align: center; 
+    text-decoration: underline;
+  }
+  table{
+     font-family: 'Times New Roman', Times, serif;
+     text-anchor: inherit;
+    
+     background-origin: content-box;
+     font-weight: 100;
+     border-block-end-style:dashed;
+     border-collapse:separate;
+     
+  }
+  body{
+      background-color:lightpink;
+      
+  }
+  input[type=submit],input[type=reset] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

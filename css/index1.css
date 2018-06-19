@@ -1,0 +1,62 @@
+body{
+    background-color:darkkhaki;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+a{
+
+    text-decoration: none;
+}
+ul  li{
+    list-style-type: none;
+}
+#Left-nav{
+    float: left;
+}
+#Right-nav{
+    float: right;
+}
+#Right-nav li{
+       display:inline-flex;
+       margin: 8px;
+       
+       
+}
+header{
+    background-color:crimson;
+    height: 90px;
+}
+footer{
+   clear: both;
+   background-color: indianred;
+   text-align: center;
+   margin-top: 600PX;
+   padding: 0px;
+}
+table{
+    
+    text-align: center;
+    margin: 25px;
+    padding: 2%;
+    width: 100%;
+    
+
+}
+form{
+    text-align: center;
+    height: 0px;
+    background-origin: content-box;
+    width:100%;
+    background-image: url()
+
+}
+input[type=submit],input[type=cancel] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
