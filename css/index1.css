@@ -52,11 +52,3 @@ form{
     background-image: url()
 
 }
-input[type=submit],input[type=cancel] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-}

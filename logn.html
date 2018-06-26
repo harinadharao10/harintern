@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/index1.css">
+    <link rel="stylesheet" type="text/css" href="css/log.css">
+    <script>
+        function validate() {
+            var u = document.logo.username.value;
+            var e = document.logo.Email.value;
+            var p = document.logo.password.value;
+            var c = document.logo.confirmpassword.value;
+            if (u == "") {
+                alert(" username mandotory field")
+                return false;
+            }
+            else if (e.length < 12) {
+                alert("not a valid email")
+                return false;
+            }
+            else if (p.length < 6) {
+                if (p.length > 6) {
+                    alert("strong password")
+                }
+                alert("weak password")
+                return false;
+
+            }
+            else if (c.length != p.length) {
+                alert("password mismatch")
+                return false;
+            }
+
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <ul id="Left-nav">
+
+            <li>
+                <img src="images/logo_0.png_0.png" alt="hari">
+            </li>
+        </ul>
+        <ul id="Right-nav">
+
+            <li>
+                <a href="http://www.i-steer.com/">Home</a>
+            </li>
+            <li>
+                <a href="http://isteer.com/company/about-us/">About us</a>
+            </li>
+            <li>
+                <a href="http://isteer.com/what-we-do/tibco-services/">services</a>
+            </li>
+            <li>
+                <a href="http://isteer.com/contact-us/">contact us</a>
+            </li>
+        </ul>
+    </header>
+    <div>
+        <form onsubmit="return validate()"name="logo" method="POST">
+            <diV>
+                <input type="text" name=username size="30" id="username" placeholder="username">
+                <br/>
+                <br/>
+            </diV>
+            <diV>
+                <input type="email" name=Email size="30" id="email" placeholder="Email">
+                <br/>
+                <br/>
+            </diV>
+            <diV>
+                <input type="password" name=password size="30" id="password" placeholder="password">
+                <br/>
+                <br/>
+            </diV>
+            <diV>
+                <input type="password" name=confirmpassword size="30" id="confirmpassword" placeholder="confirmpassword">
+                <br/>
+                <br/>
+            </diV>
+            <diV>
+                <input type="submit" value="Signup" >
+
+            </diV>
+        </form>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        copyrights@2018 Intern
+    </footer>
+
+</body>
+
+</html>
